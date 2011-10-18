@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  background: #FFFFFF none repeat scroll 0 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  height: 100%;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #000000;
+}
+
+a {
+  color: #2200C1;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #2200C1;
+}
+
+table {
+  border-collapse: separate;
+}
+
+ul.links, ul.menu {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.links li, ul.menu li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.links a, ul.menu a {
+  text-decoration: none;
+}
+
+ul.links a:hover, ul.menu a:hover {
+  text-decoration: underline;
+}
+
+blockquote:before {
+  color: #bbb;
+  content: "\201C";
+  font-size: 3em;
+  line-height: .1em;
+  margin-right: .2em;
+  vertical-align: -.4em;
+}
+
+blockquote:after {
+  color: #bbb;
+  content: "\201D";
+  font-size: 3em;
+  line-height: .1em;
+  vertical-align: -.45em;
+}
+
+blockquote :first-child {
+  display: inline;
+}
+
+#skip-links a,#skip-links a:link,#skip-links a:visited,#skip-links a:hover {
+  height: 1px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -500px;
+  width: 1px;
+}
+
+#skip-links a:active,#skip-links a:focus {
+  position: static;
+  height: auto;
+  width: auto;
+}
+
+#breadcrumbs {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+#breadcrumbs li {
+  float: left;
+  font-size: 1.2ex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#breadcrumbs li a {
+  color: #555555;
+  float: left;
+  text-decoration: none;
+}
+
+#breadcrumbs li.sep {
+  padding: 0 1ex;
+}

@@ -1,0 +1,57 @@
+;
+; Theme built by Nick Mathew (teknikqa)
+
+; The name and description of the theme used on the admin/build/themes page.
+name = Mash
+description = Mash is a responsive Drupal theme
+
+; The screenshot displayed on the admin/build/themes page.
+; 150x94 px screenshot
+screenshot = images/screenshot.png
+
+; Incremental version of this theme.
+version = 0.1
+
+; This theme is compatible with Drupal version 6.x
+core = 6.x
+
+; Using Drupal's default theme engine.
+engine = phptemplate
+
+; Regions available for this theme
+regions[header] = Header
+regions[header_left] = Header Left
+regions[header_right] = Header Right
+regions[header_bottom] = Header Bottom
+regions[preface] = Preface
+regions[left] = Left Sidebar
+region[right] = Right Sidebar
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[footer] = Footer
+
+; Features available for this theme
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
+features[] = node_user_picture
+features[] = comment_user_picture
+
+; Location of CSS files used by the theme.
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/960.css
+stylesheets[all][] = css/common.css
+stylesheets[all][] = css/notifications.css
+stylesheets[all][] = css/datepicker.css
+stylesheets[all][] = css/fix-ie.css
+stylesheets[print][] = css/print.css
+
+; Additional Javascript code used by the theme
+;scripts[] = js/popup.js
+
