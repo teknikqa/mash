@@ -163,7 +163,7 @@
       <!-- Region: Content -->
       <div id="content-wrapper" class="grid-12">
         <!-- title -->
-        <?php (!empty($title)): ?>
+        <?php if (!empty($title)): ?>
           <h1 class="content-title"><?php print $title; ?></h1>
         <?php endif; ?>
         <!-- tabs -->

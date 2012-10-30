@@ -40,7 +40,7 @@ function mash_breadcrumb($breadcrumb) {
 function mash_preprocess_page(&$vars) {
 
   // Set stylesheets for IE
-  $vars['ie_styles'] = _mash_get_ie_styles()
+  $vars['ie_styles'] = _mash_get_ie_styles();
 
   // Set menu tree on left sidebar
   $tree = menu_tree_page_data('primary-links') + menu_tree_page_data('secondary-links');
