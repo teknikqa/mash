@@ -228,7 +228,7 @@
       <div id="footer-message" class="grid-12">
         <?php print $footer_message; ?>
       </div>
-      <span id="copyright" class="grid-12">Copyright &copy; <?php date_default_timezone_set('America/New_York'); echo date("Y"); ?> by the President and Fellows of Harvard College</span>
+      <span id="copyright" class="grid-12">Copyright &copy; <?php date_default_timezone_set('America/New_York'); echo date("Y"); ?> by <a href="http://nm7.org">Nick Mathew</a></span>
       <div class="clear"></div>
     </div>
     <!-- END Footer -->
